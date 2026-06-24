@@ -95,7 +95,7 @@ public class Simulation {
                         y = Integer.parseInt(inputScanner.nextLine());
                     } while (y < 1 || y > worldMap.getSizeN());
 
-                    Actions.moveCoordinates(worldMap, x, y);
+                    Actions.moveCoordinates(worldMap, x-1, y-1);
                     break;
             }
             counterStep++;

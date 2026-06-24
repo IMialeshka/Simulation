@@ -3,7 +3,7 @@ package map;
 import entity.Creature;
 import entity.EntityType;
 import entity.Herbivore;
-import entity.utils.Movement;
+import utils.Movement;
 
 import java.util.*;
 

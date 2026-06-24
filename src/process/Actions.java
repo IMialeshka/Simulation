@@ -1,7 +1,7 @@
 package process;
 
 import entity.*;
-import entity.utils.BaseEntityFactory;
+import utils.BaseEntityFactory;
 import map.Path;
 import map.PathFinder;
 import map.WorldMap;

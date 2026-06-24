@@ -1,4 +1,4 @@
-package entity.utils;
+package utils;
 
 import entity.BaseEntity;
 import entity.Creature;
