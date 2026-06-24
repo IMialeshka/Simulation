@@ -14,7 +14,7 @@ public class Simulation {
     public static void main(String[] args) {
 
         Scanner inputScanner = new Scanner(System.in);
-        int intM = 0;
+        int intM;
         while(true) {
             System.out.println("Введите ширину поля для симуляции:");
             String strM = inputScanner.nextLine();
@@ -30,7 +30,7 @@ public class Simulation {
 
         }
 
-        int intN = 0;
+        int intN;
         while(true) {
             System.out.println("Введите высоту поля для симуляции:");
             String strN = inputScanner.nextLine();

@@ -47,8 +47,8 @@ public final class Actions {
             return;
         }
         int i = Math.min(countEntityWorld, minCountEntity);
-        int x = -1;
-        int y = -1;
+        int x;
+        int y;
         int sizeN = worldMap.getSizeN();
         int sizeM = worldMap.getSizeM();
         BaseEntityFactory baseEntityFactory = new BaseEntityFactory();

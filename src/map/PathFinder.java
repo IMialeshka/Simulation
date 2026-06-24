@@ -41,7 +41,6 @@ public class PathFinder {
     private static List<Path> getPaths(Path path, WorldMap worldMap) {
         List<Path> paths = new ArrayList<>();
             Coordinates current = path.getEndCoordinate();
-        Coordinates coordinatesEntity = path.getStartCoordinate();
             if (Movement.isTarget(current, worldMap, path.getStartCoordinate())) {
                 path.addStepPath(current);
                 paths.add(path);
